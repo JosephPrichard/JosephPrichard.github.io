@@ -1,0 +1,206 @@
+html, body {
+    overflow: auto;
+    height: 100%;
+    user-select: none;
+}
+
+.embed {
+    overflow: hidden;
+    display: none;
+}
+
+.title {
+    color: rgb(210,210,210);
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Tahoma, Menlo, sans-serif;
+}
+
+.sub-title {
+    color: rgb(96,99,102);
+    font-size: 19px;
+    font-family: Consolas, Menlo, Monaco, monospace, serif;
+}
+
+.center {
+    margin: auto;
+}
+
+.container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container-content {
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-content {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container-content {
+        width: 80%;
+    }
+}
+
+.bottom-bar {
+    font-family: Consolas, Menlo, Monaco, monospace, serif;
+    width: 50%;
+    margin: 50px auto 250px auto;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .bottom-bar {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .bottom-bar {
+        width: 80%;
+    }
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(140,140,140);
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.link:hover {
+    color: rgb(180,180,180);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .link {
+        margin-bottom: 30px;
+        display: block;
+    }
+    .bottom-bar {
+        margin-bottom: 100px;
+    }
+}
+
+.content-text {
+    padding: 10px;
+    color: rgb(165,194,97);
+    font-family: Consolas, Menlo, Monaco, monospace, serif;
+}
+
+.dark-grey-bg {
+    background-color: rgb(43,43,43);
+}
+
+.panel {
+    margin-bottom: 50px;
+}
+
+.skill {
+    font-family: Tahoma, Menlo, sans-serif;
+    font-size: 17px;
+    padding: 5px 10px 6px 10px;
+    width: auto;
+    display: inline-block;
+    background-color: rgb(49,49,49);
+    color: rgb(160,160,160);
+    border-radius: 2px;
+    border-color: rgb(34 34 34);
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 1px 1px rgb(34 34 34);
+    margin: 5px 10px 5px 10px;
+}
+
+.skill-row {
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+    .skill {
+        font-size: 14px;
+        padding: 4px 9px 5px 9px;
+        margin: 4px 8px 4px 8px;
+    }
+    .skill-row {
+        margin-bottom: 10px;
+    }
+    .panel {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .skill {
+        font-size: 11px;
+        padding: 3px 8px 4px 8px;
+        margin: 3px 6px 6px 3px;
+    }
+    .skill-row {
+        margin-bottom: 5px;
+    }
+    .panel {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .skill {
+        font-size: 8px;
+        padding: 2px 7px 3px 7px;
+        margin: 2px 4px 4px 2px;
+    }
+    .skill-row {
+        margin-bottom: 0;
+    }
+    .panel {
+        margin-bottom: 20px;
+    }
+}
+
+.projects {
+    display: table;
+    margin:auto;
+    width: 100%;
+}
+
+.project {
+    width: 90%;
+    margin: 20px auto 20px auto;
+    padding: 0;
+}
+
+.project:hover {
+    opacity: 0.4;
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* scrollbar webkit */
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: rgb(45,45,45);
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}
