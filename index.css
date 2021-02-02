@@ -94,6 +94,8 @@ html, body {
 }
 
 .content-text {
+    margin: auto;
+    width: 100%;
     padding: 10px;
     color: rgb(165,194,97);
     font-family: Consolas, Menlo, Monaco, monospace, serif;
@@ -182,8 +184,8 @@ html, body {
 }
 
 .project:hover {
-    opacity: 0.4;
-    transition: opacity 0.3s ease-in-out;
+    /*opacity: 0.4;
+    transition: opacity 0.3s ease-in-out;*/
     cursor: pointer;
 }
 
