@@ -96,10 +96,17 @@ html, body {
 .content-text {
     line-height: 1.6;
     margin: auto;
-    width: 95%;
+    width: 80%;
     padding: 10px;
     color: rgb(165,194,97);
     font-family: Consolas, Menlo, Monaco, monospace, serif;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .content-text {
+        width: 100%;
+    }
 }
 
 .dark-grey-bg {
@@ -191,7 +198,7 @@ html, body {
 }
 
 .me {
-    width: 15%;
+    width: 200px;
     border-radius: 50%;
     margin-top: 25px;
 }
